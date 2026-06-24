@@ -35,5 +35,6 @@ This application uses the pathlib library to manage file paths, ensuring the pro
 ***_____________________________________________________________________________________________________________***
 
 ***Author:*** Ayushi Singh
+
 ***GitHub Profile:*** https://github.com/ayus28ayushi-ai
 
