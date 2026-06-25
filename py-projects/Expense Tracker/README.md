@@ -64,6 +64,7 @@ The application manages two files in your local directory:
 
 ---
 ***Author*** - Ayushi Singh
+
 ***GitHub Profile*** - https://github.com/ayus28ayushi-ai
 
 *Built with simplicity in mind. Happy Tracking!*
