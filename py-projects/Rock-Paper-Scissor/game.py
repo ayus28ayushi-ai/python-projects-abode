@@ -10,13 +10,18 @@ attempts = 0
 player_score = 0
 comp_score = 0
 
-print("😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎")
+print("😎" * 35)
 print("-------------------------ROCK-PAPER-SCISSORS-------------------- ")
-print("😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎\n")
+print("😎" * 35)
+print("Game rule:\n Choose amoung ROCK, PAPER & SCISSOR\n")
 print("ENJOY :)\n🪨 📃 ✂️\n")
 
 while gameRunning:
-    attempts = int(input("Of how many points do you wish the game to be??"))
+    try:
+        attempts = int(input("Of how many points do you wish the game to be??"))
+    except ValueError:
+        print("Enter a valid number!")
+        continue
 
     while player_score < attempts and comp_score < attempts:
         player = input("\nEnter choice:").upper()
